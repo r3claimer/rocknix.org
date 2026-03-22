@@ -1,5 +1,5 @@
 <div class="preview-container">
-  <img class="off-glb" src="_inc/images/video-frame.png"/>
+  <img class="off-glb" src="_inc/images/video-frame.wepb"/>
   <video autoplay loop muted><source src="_inc/video/preview.mp4" type="video/mp4"></video>
 </div>
 
