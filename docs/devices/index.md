@@ -55,6 +55,7 @@ We provide builds for the following devices:
   * [XU10](powkiddy/xu10)
 * Retroid
   * [Retroid Pocket 5](retroid/retroid-pocket-5)
+  * [Retroid Pocket 6](retroid/retroid-pocket-6)
   * [Retroid Pocket Mini](retroid/retroid-pocket-mini)
   * [Retroid Pocket Flip2](retroid/retroid-pocket-flip2)
 * Unbranded
