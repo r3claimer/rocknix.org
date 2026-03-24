@@ -1,7 +1,7 @@
 {% if not btn_hotkey_a %}
 {% set btn_hotkey_a = 'SELECT' %}
 {% endif %}
-### Gopher64 ([Nintendo 64](../../../systems/n64)
+### Gopher64 ([Nintendo 64](../../../systems/n64))
 
 | Button Combo | Action |
 | -- | -- |
