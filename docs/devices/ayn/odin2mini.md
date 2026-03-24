@@ -50,6 +50,7 @@ search:
 {%include 'controls/aethersx2.md' %}
 {%include 'controls/xemu.md' %}
 {%include 'controls/azahar.md' %}
+{%include 'controls/gopher64.md' %}
 
 ## Additional References
 
