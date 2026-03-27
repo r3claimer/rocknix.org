@@ -94,6 +94,7 @@ nav:
       - Scraping: configure/scraper.md
       - Collections: configure/collections.md
       - Shaders: configure/shaders.md
+      - Game Guides: configure/gameguides.md
       - Overlays: configure/overlays.md
       #- Bluetooth: configure/bluetooth.md
       - Networking: configure/networking.md
