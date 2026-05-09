@@ -84,6 +84,7 @@ nav:
       - Packages: contribute/packages.md
     - Play:
       - Install: play/install.md
+      - Install (internal): play/installtointernal.md
       - Update: play/update.md
       - Add Games: play/add-games.md
       - Achievements: play/retro-achievements.md
