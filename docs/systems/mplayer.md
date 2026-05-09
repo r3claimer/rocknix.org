@@ -4,7 +4,7 @@
 
 | Game&nbsp;Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Supported Extensions |
 | --- | --- |
-| `roms/mplayer` | ++".mp4"++ ++".mkv"++ ++".avi"++ ++".mov"++ ++".wmv"++ ++".m3u"++ ++".mpg"++ ++".ytb"++ ++".twi"++ ++".sh"++ ++".mp3"++ ++".aac"++ ++".mka"++ ++".dts"++ ++".flac"++ ++".ogg"++ ++".m4a"++ ++".ac3"++ ++".opus"++ ++".wav"++ ++".wv"++ ++".eac33"++ ++".thd"++ |
+| `roms/mplayer` | ++".aac"++ ++".ac3"++ ++".avi"++ ++".dts"++ ++".eac33"++ ++".flac"++ ++".m3u"++ ++".m4a"++ ++".m4v"++ ++".mka"++ ++".mkv"++ ++".mov"++ ++".mp3"++ ++".mp4"++ ++".mpg"++ ++".ogg"++ ++".opus"++ ++".sh"++ ++".thd"++ ++".twi"++ ++".wav"++ ++".wmv"++ ++".wv"++ ++".ytb"++ |
 
 ## Emulator/Core
 
