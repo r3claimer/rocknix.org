@@ -1,18 +1,16 @@
 # :material-progress-check: installtointernal
 
-!!! tip "This is an optional, secondary step after the main [installation](../install) process."
+!!! warning "This is an optional, secondary step after the main [installation](../install) process. It has been well-tested, however is only recommended for advanced users with the skills to recover their devices should something go wrong."
 
 `installtointernal` is a script available on selected platforms (currently SM6115, SM8250, SM8550, SM8650 and SM8750) that will resize the Android userdata partition and install ROCKNIX to the internal UFS or eMMC. It will reset your Android userdata, like an Android factory reset would do.
 
 Following this process will allow you to enjoy faster ROCKNIX boot times and faster updates. It also particularly improves the experience of installing and running Steam games.
 
-!!! tip "`installtointernal` has been well-tested, however is only recommended for advanced users with the skills to recover their devices should something go wrong."
-
 ## Process
 
 SSH into your device and run `installtointernal`.
 
-!!! tip "Read the prompts carefully! Then read them again to make doubly sure you know what you are being asked."
+!!! warning "Read the prompts carefully! Then read them again to make doubly sure you know what you are being asked."
 
 ### Prompt 1 - Resize Android userdata
 
