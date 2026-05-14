@@ -215,6 +215,7 @@ nav:
         - Music Player: systems/music.md
         - Ports: systems/ports.md
         - Steam: systems/steam.md
+        - Heroic Games Launcher: systems/heroic.md
     - Devices:
       #- devices/index.md
       - Anbernic:
