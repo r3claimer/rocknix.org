@@ -6,22 +6,26 @@ Fake suspend is available on platforms that do not support hardware suspend and 
 
 Fake suspend can be activated by pressing the power button or closing the lid on clamshell devices. The following configurable actions are performed:
 
-- display or backlight is turned off
+- LEDs are disabled
 - audio is muted
+- controls are disabled (besides lid / power button)
+- display or backlight is turned off
+- game / EmulationStation processes are frozen
 - CPU / GPU governors are set to powersave
 - CPU cores 1...n are brought offline, core 0 left online
-- controls are disabled (besides lid / power button)
 - a shutdown delay timer begins
 
 If a game is running when fake suspend is triggered, it will continue to run in a low power state, allowing quick gameplay resume.
 
 When the power button is pressed again, or the lid is opened on clamshell devices, the following actions are performed as required:
 
-- display or backlight is turned on
-- audio is unmuted
-- CPU / GPU governors are restored to their pre-suspend value
 - CPU cores 1...n are brought back online
+- CPU / GPU governors are restored to their pre-suspend value
+- game / EmulationStation processes are woken
+- display or backlight is turned on
 - controls are enabled
+- audio is unmuted
+- LEDs are enabled
 - the shutdown delay timer is cancelled
 
 If the shutdown delay timer expires before resume is triggered, the device will shut down.
@@ -30,7 +34,15 @@ If the shutdown delay timer expires before resume is triggered, the device will 
 
 Behaviour can be configured in the EmulationStation 'System Settings' menu, 'Suspend' section menu.
 
-### Shutdown Delay
+### Enable suspend
+
+This setting is a global toggle for fake suspend. If it is disabled, pressing the power button or closing the lid will have no effect.
+
+### Enable timed shutdown
+
+This setting controls whether a timed shutdown will be triggered after suspending. If it is disabled, the device will remain suspended until the battery dies.
+
+### Shutdown delay
 
 This setting controls how long fake suspend is active (0 - 30 minutes: default 0 minutes) before a timed shutdown occurs, when *not* in-game. If the delay is set to 0 minutes, shutdown will occur immediately.
 
