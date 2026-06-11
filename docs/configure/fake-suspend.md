@@ -2,7 +2,7 @@
 
 ## Overview
 
-Fake suspend is available on platforms that do not support hardware suspend and resume - SM8550, S922X and H700. This allows the device to enter a short term low power state, with a configurable shutdown delay.
+Fake suspend is available on platforms that do not support hardware suspend and resume. This allows the device to enter a short term low power state, with a configurable shutdown delay.
 
 Fake suspend can be activated by pressing the power button or closing the lid on clamshell devices. The following configurable actions are performed:
 
