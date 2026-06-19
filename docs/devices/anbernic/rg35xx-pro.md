@@ -1,4 +1,4 @@
-# Anbernic RG35XX H
+# Anbernic RG35XX Pro
 
 ![](../../_inc/images/devices/anbernic-rg35xxpro.png){ .off-glb }
 
