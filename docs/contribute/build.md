@@ -49,7 +49,7 @@ The final command should produce a message indicating that Docker is properly in
 
 ### Manual Build
 
-Manual builds (outside of Docker) are only recommended for developers with specific needs that cannot be met by the Docker approach.  The host configuration should match the Docker container as closely as possible, running Ubuntu 22.04 with all packages listed in the [Dockerfile](https://github.com/ROCKNIX/distribution/blob/main/Dockerfile).
+Manual builds (outside of Docker) are only recommended for developers with specific needs that cannot be met by the Docker approach.  The host configuration should match the Docker container as closely as possible, running Ubuntu 22.04 with all packages listed in the [Dockerfile](https://github.com/ROCKNIX/distribution/blob/next/Dockerfile).
 
 ### Virtual Machines
 
@@ -70,7 +70,7 @@ Once you have cloned the repo, decide whether you want to build the main branch 
 
 |Branch|Purpose|
 |----|----|
-|main|Stable ROCKNIX sources|
+|next|Stable ROCKNIX sources|
 |dev|Unstable ROCKNIX sources|
 
 To check out our development branch, cd into the project directory and checkout `dev`.
