@@ -27,4 +27,4 @@ Download the latest `RK3326` version of ROCKNIX from the button below and follow
 ## Additional References
 
 - [Platform Documentation (RK3326)](https://github.com/ROCKNIX/distribution/tree/next/documentation/PER_DEVICE_DOCUMENTATION/RK3326)
-- [Device Quirks](https://github.com/ROCKNIX/distribution/tree/main/packages/hardware/quirks/devices/Anbernic%20RG351M)
+- [Device Quirks](https://github.com/ROCKNIX/distribution/tree/next/projects/ROCKNIX/packages/hardware/quirks/devices/Anbernic%20RG351M)

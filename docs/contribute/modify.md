@@ -1,6 +1,6 @@
 # :material-cube-unfolded: Modifying ROCKNIX
 
-Before modifying ROCKNIX, be sure you can successfully [build](build.md) the unmodified `main` or `dev` branch.  Establish a baseline of success before introducing changes to the ROCKNIX source.
+Before modifying ROCKNIX, be sure you can successfully [build](build.md) the unmodified `next` or `dev` branch.  Establish a baseline of success before introducing changes to the ROCKNIX source.
 
 ## Building a Single Package
 
@@ -18,7 +18,7 @@ PROJECT is one of `Amlogic`, `PC`, or `Rockchip` (i.e. the subdirectories of the
 
 !!! note "The first and last lines should be omitted if building outside of Docker."
 
-!!! info "If you are interested in an EmulationStation package build it requires additional steps because its source code is located in a separate repository.  Please see instructions [here](https://github.com/ROCKNIX/distribution/blob/main/packages/ui/emulationstation/package.mk#L39)."
+!!! info "If you are interested in an EmulationStation package build it requires additional steps because its source code is located in a separate repository.  Please see instructions [here](https://github.com/ROCKNIX/distribution/blob/next/projects/ROCKNIX/packages/ui/emulationstation/package.mk#L39)."
 
 ## Creating a Patch for a Package
 
