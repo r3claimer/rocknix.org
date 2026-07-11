@@ -4,17 +4,19 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/doom` | ++".doom"++ |
+| `roms/doom` | ++".doom"++ ++".iwad"++ ++".pwad"++ ++".wad"++ |
 
 ## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
 | GZDoom | [github.com/ZDoom/gzdoom](https://github.com/ZDoom/gzdoom) |
+| prboom | [docs.libretro.com/library/prboom](https://docs.libretro.com/library/prboom) |
+
 
 GZDoom will detect the analog stick automatically, this makes menus navigatable. ROCKNIX does not provide any controls mapping for gzdoom, as there is no obvious default mapping as with console emulators. Users have to map their own preferred controls.
 
-## Creating `.doom` files
+## Creating `.doom` files (GZDdoom)
 
 These files must be created for each **WAD** that you want to load with gzdoom. The file should contain at least one `IWAD` variable and optional `MOD` variables. Multiple `IWAD` and `MOD` variables can be used in the same file to load multiple wads, mods and packages. Therefore, multiple **.doom** files can be created for the same **WAD** for each configuration of the game. 
 
